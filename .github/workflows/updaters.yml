@@ -12,6 +12,7 @@ jobs:
       matrix:
         package:
           - llr
+          - mkvcleaner
 
     steps:
       - uses: actions/checkout@v3
