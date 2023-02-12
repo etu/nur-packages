@@ -1,5 +1,5 @@
-[[https://github.com/etu/nur-packages/actions/workflows/build.yml][https://github.com/etu/nixconfig/actions/workflows/build.yml/badge.svg]]
-[[https://github.com/etu/nur-packages/actions/workflows/updaters.yml][https://github.com/etu/nixconfig/actions/workflows/updaters.yml/badge.svg]]
+[[https://github.com/etu/nur-packages/actions/workflows/build.yml][https://github.com/etu/nur-packages/actions/workflows/build.yml/badge.svg]]
+[[https://github.com/etu/nur-packages/actions/workflows/updaters.yml][https://github.com/etu/nur-packages/actions/workflows/updaters.yml/badge.svg]]
 [[https://etu.cachix.org][https://img.shields.io/badge/cachix-etu-blue.svg]]
 
 * nur-packages
