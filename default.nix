@@ -9,4 +9,7 @@
   # Firefox extensions
   firefox-extension-elasticvue = pkgs.callPackage ./pkgs/firefox-extensions/elasticvue.nix {};
   firefox-extension-streetpass-for-mastodon = pkgs.callPackage ./pkgs/firefox-extensions/streetpass-for-mastodon.nix {};
+
+  # Matrix hookshot
+  matrix-hookshot = pkgs.callPackage ./pkgs/matrix-hookshot {};
 }
