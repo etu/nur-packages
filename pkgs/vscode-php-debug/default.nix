@@ -19,6 +19,8 @@ in
       sha256 = data.srcHash;
     };
 
+    packageJSON = ./package.json;
+
     yarn = yarn.override {nodejs = nodejs-16_x;};
 
     yarnNix = ./yarn.nix;
