@@ -36,6 +36,6 @@ jobs:
       - name: 'Build ${{ matrix.package }}'
         run: 'nix build .#${{ matrix.package }}'
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "cron(${{ matrix.package }}): Update ${{ matrix.package }} package"
