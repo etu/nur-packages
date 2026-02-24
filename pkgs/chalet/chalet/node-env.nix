@@ -1,11 +1,12 @@
 # This file originates from node2nix
 
-{lib, stdenv, nodejs, python2, pkgs, libtool, runCommand, writeTextFile, writeShellScript}:
+{lib, stdenv, nodejs-slim_24, python2, pkgs, libtool, runCommand, writeTextFile, writeShellScript}:
 
 let
   # Workaround to cope with utillinux in Nixpkgs 20.09 and util-linux in Nixpkgs master
   utillinux = pkgs.util-linux;
-
+  # Set a specific nodejs to be able to find nodejs.src
+  nodejs = nodejs-slim_24;
   python = if nodejs ? python then nodejs.python else python2;
 
   # Create a tar wrapper that filters all the 'Ignoring unknown extended header keyword' noise
