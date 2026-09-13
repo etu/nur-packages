@@ -31,6 +31,18 @@ jobs:
             extraArgs: '--version=branch=main'
           - package: dmsShellPlugins.catWidget
             extraArgs: '--version=branch=main'
+          - package: dmsShellPlugins.dankActions
+            extraArgs: '--version=branch=master'
+          - package: dmsShellPlugins.dankDesktopWeather
+            extraArgs: '--version=branch=master'
+          - package: dmsShellPlugins.dankHooks
+            extraArgs: '--version=branch=master'
+          - package: dmsShellPlugins.dankHyprlandWindows
+            extraArgs: '--version=branch=master'
+          - package: dmsShellPlugins.dankLauncherKeys
+            extraArgs: '--version=branch=master'
+          - package: dmsShellPlugins.dankPomodoroTimer
+            extraArgs: '--version=branch=master'
           - package: dmsShellPlugins.dgpuStatus
             extraArgs: '--version=branch=master'
           - package: dmsShellPlugins.dmsScreenshot

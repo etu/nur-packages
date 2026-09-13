@@ -7,6 +7,12 @@ lib.recurseIntoAttrs {
   activateLinux = callPackage ./activate-linux.nix {};
   calculator = callPackage ./calculator.nix {};
   catWidget = callPackage ./cat-widget.nix {};
+  dankActions = callPackage ./dank-actions.nix {};
+  dankDesktopWeather = callPackage ./dank-desktop-weather.nix {};
+  dankHooks = callPackage ./dank-hooks.nix {};
+  dankHyprlandWindows = callPackage ./dank-hyprland-windows.nix {};
+  dankLauncherKeys = callPackage ./dank-launcher-keys.nix {};
+  dankPomodoroTimer = callPackage ./dank-pomodoro-timer.nix {};
   dgpuStatus = callPackage ./dgpu-status.nix {};
   dmsScreenshot = callPackage ./dms-screenshot.nix {};
   emojiLauncher = callPackage ./emoji-launcher.nix {};
