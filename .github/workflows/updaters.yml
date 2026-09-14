@@ -199,7 +199,7 @@ jobs:
 
           if ! git diff --unified=0 --no-color |
             grep -E '^[+-]' |
-            grep -Ev '^(\+\+\+|---|[+-][[:space:]]*("version"|version)[[:space:]]*=)' >/dev/null; then
+            grep -Ev '^(\+\+\+|---|[+-][[:space:]]*("version"|version)[[:space:]]*[:=])' >/dev/null; then
             echo "Dropping version-only update"
             git restore .
           fi
